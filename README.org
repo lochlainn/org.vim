@@ -1,0 +1,11 @@
+#+TITLE: Sample Org mode files
+
+A collection of sample Org mode files for testing Org.vim changes against.
+
+To use these files for testing run this command when Git is checked out on the
+=master= branch.  The command will create a new directory called "samples"
+linked to this branch.
+
+#+BEGIN_SRC shell
+git worktree add samples samples
+#+END_SRC
